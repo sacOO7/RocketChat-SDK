@@ -24,7 +24,7 @@ public class Main {
         final Socket socket=new Socket("wss://demo.rocket.chat/websocket");
 
         //Setting credentials to be sent to server
-        socket.setCredentials("sachin.shinde","sachin9922");
+        socket.setCredentials("username","password");
 
         //Connect event to server
         try {
